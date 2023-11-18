@@ -1,0 +1,15 @@
+Package: rphido
+Title: Helper R package for Public Health Intelligence Data Objects
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Andrew",
+           family = "Lockhart",
+           role = c("aut", "cre"),
+           email = "andrew.lockhart@health.qld.gov.au")
+Maintainer: Andrew Lockhart <andrew.lockhart@health.qld.gov.au>
+Description: Convenience functions to make some common tasks with string
+    manipulation and regular expressions a bit easier.
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
