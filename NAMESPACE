@@ -2,6 +2,7 @@
 
 export(connect_cedar_odbc)
 export(extract_cedar)
+export(extract_cedar_linelist)
 export(show_cedar_names)
 export(str_rip)
 export(str_split_one)

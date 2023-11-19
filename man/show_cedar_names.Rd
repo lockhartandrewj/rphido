@@ -23,5 +23,5 @@ cedar_nv_names <- show_cedar_names()
 }
 }
 \seealso{
-\link{extract_cedar_linelist} and \link{extract_cedar}  and \link{connect_cedar}
+\link{extract_cedar_linelist} and \link{extract_cedar}  and \link{connect_cedar_odbc}
 }

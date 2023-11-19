@@ -9,7 +9,7 @@
 #' @export
 #' @return a character vector of the field names of notifications in CEDAR.
 #'
-#' @seealso [extract_cedar_linelist] and [extract_cedar]  and [connect_cedar] 
+#' @seealso [extract_cedar_linelist] and [extract_cedar]  and [connect_cedar_odbc] 
 #' @examples
 #' \dontrun{
 #' show_cedar_names()
