@@ -3,25 +3,17 @@
 
 # rphido
 
-<!-- badges: start -->
-<!-- badges: end -->
-
 The goal of `rphido` is to make it easier for Public Health Staff to
-access and use data to improve public health
+access and use data to improve public health and ahelp with common
+string manipulation tasks
 
-## Installation
+## Data access functions
 
-You can install the development version of rphido from
-[GitHub](https://github.com/) with:
+## String splitter functions
 
-``` r
-# install.packages("devtools")
-devtools::install_github("lockhartandrewj/rphido")
-```
+### `str_split_one`
 
-## Usage
-
-The first function `rphido` has is `str_split_one`.
+The first `rphido` string splitter function is `str_split_one`.
 
 The `str_split_one` function splits strings into character vectors
 **not** lists.
@@ -71,3 +63,15 @@ y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 #> [1] "192" "168" "0"   "1"
 ```
+
+### `str_rip`
+
+The second `rphido` string splitter function is `str_rip`.
+
+`str_rip` will rip (split) a string `string` (or vector of strings) by a
+simple separator. The separator `pattern` is a simple string, NOT a
+regular expression. This is a simple wrapper function for:
+`stringr::str_split(string, stringr::fixed(pattern), simplify = TRUE)`
+
+It returns a character matrix with columns for each split of the input
+string and a row for each input string.

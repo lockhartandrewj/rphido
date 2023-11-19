@@ -1,14 +1,14 @@
 Package: rphido
 Title: Helper R package for Public Health Intelligence Data Objects
-Version: 0.0.0.9000
+Version: 0.1
 Authors@R: 
     person(given = "Andrew",
            family = "Lockhart",
            role = c("aut", "cre"),
            email = "andrew.lockhart@health.qld.gov.au")
 Maintainer: Andrew Lockhart <andrew.lockhart@health.qld.gov.au>
-Description: Convenience functions to make some common tasks with string
-    manipulation and regular expressions a bit easier.
+Description: Helper functions to access the CEDAR database and make some common 
+  string manipulation tasks a bit easier.
 License: file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -17,4 +17,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
-    stringr
+    stringr,
+    tibble
